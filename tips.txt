@@ -1,0 +1,68 @@
+//----------------------------------------------------------------
+// Tip strings and images used by CTipPanel
+// The images names refer to textures in mod_textures.txt
+//----------------------------------------------------------------
+"tips"
+{
+	"SurvivorTips"
+	{	  
+		"#L4D_Tip_Charger"				"tip_charger_pummel"
+// 		"#L4D_Tip_Revive"				"tip_revive"
+// 		"#L4D_Tip_Heal"   				"tip_heal"
+// 		"#L4D_Tip_Shove"     			"tip_shove"
+// 		"#L4D_Tip_Items"     			"tip_items"
+// 		"#L4D_Tip_Boomer"    			"tips_boomer"
+// 		"#L4D_Tip_Witch"     			"tip_witch"
+// 		"#L4D_Tip_Smoker"    			"tip_smoker_pull"
+// 		"#L4D_Tip_Tank"					"tips_tank"
+// 		"#L4D_Tip_Hunter"    			"tips_hunter"
+// 		"#L4D_Tip_Hunter2"   			"tip_hunter_pounce"
+// 		"#L4D_Tip_Checkpoint"			"tip_checkpoint"
+// 		"#L4D_Tip_bullets"  			"tip_info"
+// 		"#L4D_Tip_doors" 				"tip_doorbreak"
+// 		"#L4D_Tip_pain_pills"			"tip_info"
+// 		"#L4D_Tip_crouch"    			"tip_crouch"
+// 		"#L4D_Tip_reload_speeds"   		"tip_info"
+// 		"#L4D_Tip_shotgun"    			"tip_shotguns"
+// 		"#L4D_Tip_pipe_bomb"   			"tip_pipebomb"
+// 		"#L4D_Tip_safe_room_heal" 		"tip_info"
+// 		"#L4D_Tip_witch_annoyances"		"tip_witch"		
+		
+  		"#L4D_Tip_spitter"				"tips_spitter"
+ 				
+		"#L4D_Tip_grenadelauncher"		"tip_grenadelauncher"
+		"#L4D_Tip_incendiary_ammo"		"tip_incendiary_ammo"
+		"#L4D_Tip_explosive_ammo"		"tip_explosive_ammo"
+  		"#L4D_Tip_adrenaline"			"tip_syringe"
+ 		"#L4D_Tip_lasersight"			"tip_lasersight"
+ 		"#L4D_Tip_melee"				"tip_melee"
+		
+		// material not yet revealed in pressdemo builds
+//		"#L4D_Tip_jockey"				"tips_jockey"
+//		"#L4D_Tip_upgradepack"			"tip_upgradepack"
+//		"#L4D_Tip_boomer_bile"			"tip_boomer_bile"
+	}
+
+	"InfectedTips"
+	{	  
+		"#L4D_Z_Tip_falling"					"icon_info"		
+		"#L4D_Z_Tip_glows"						"icon_info"			
+		"#L4D_Z_Tip_break_doors"				"tip_doorbreak"	
+		"#L4D_Z_Tip_no_break_saferoom_doors"	"tip_checkpoint"	
+		"#L4D_Z_Tip_hunter_leap_aim"			"tips_hunter"	
+		"#L4D_Z_Tip_boomer_slow"				"tips_boomer"
+		"#L4D_Z_Tip_smoker_choke"				"tips_smoker"		
+		"#L4D_Z_Tip_tank_health"				"tips_tank"			
+		"#L4D_Z_Tip_hunter_wallkick"			"tips_hunter" [$WIN32]
+		"#L4D_360_Hint_hunter_wallkick"			"tips_hunter" [$X360]
+		"#L4D_Z_Tip_boomer_pop"					"tips_boomer"		
+		"#L4D_Z_Tip_smoker_poison"				"tip_smoker_pull"			
+		"#L4D_Z_Tip_tank_self_control"			"tips_tank"			
+		"#L4D_Z_Tip_boomer_it"					"tip_boomer_vomit"	
+		"#L4D_Z_Tip_tank_throw"					"tips_tank"			
+		"#L4D_Z_Tip_hunter_pounce_incaps"		"tips_hunter"		
+		"#L4D_Z_Tip_boomer_recharge"			"tip_boomer_vomit"	
+		"#L4D_Z_Tip_tank_break_walls"			"tips_tank"			
+		"#L4D_Z_Tip_boomer_vomit_no_move"		"tip_boomer_vomit"	
+	}
+}

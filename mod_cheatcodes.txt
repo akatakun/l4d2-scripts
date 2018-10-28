@@ -1,0 +1,114 @@
+/////////////
+// X360 button names
+//
+// A_BUTTON
+// B_BUTTON
+// X_BUTTON		
+// Y_BUTTON
+//		
+// L_SHOULDER
+// R_SHOULDER
+// L_TRIGGER
+// R_TRIGGER
+//
+// BACK		
+// START
+//
+// UP
+// DOWN
+// LEFT
+// RIGHT
+//
+// STICK1
+// STICK2
+//
+// S1_RIGHT
+// S1_LEFT		
+// S1_DOWN
+// S1_UP
+//
+// S2_RIGHT
+// S2_LEFT
+// S2_DOWN
+// S2_UP
+///////////////
+
+cheat_codes
+{
+	"GodOn"
+	{
+		"code"		"X_BUTTON"
+		"code"		"UP"
+		"code"		"B_BUTTON"
+		"code"		"UP"
+		"code"		"X_BUTTON"
+		"code"		"X_BUTTON"
+		"code"		"UP"
+		"code"		"B_BUTTON"
+		"code"		"B_BUTTON"
+		"code"		"UP"
+
+		"command"	";" // "god 1"
+	}
+
+	"GodOff"
+	{
+		"code"		"X_BUTTON"
+		"code"		"DOWN"
+		"code"		"B_BUTTON"
+		"code"		"DOWN"
+		"code"		"X_BUTTON"
+		"code"		"X_BUTTON"
+		"code"		"DOWN"
+		"code"		"B_BUTTON"
+		"code"		"B_BUTTON"
+		"code"		"DOWN"
+
+		"command"	";" // "god 0"
+	}
+
+	"WarpSurvivors"
+	{
+		"code"		"LEFT"
+		"code"		"LEFT"
+		"code"		"X_BUTTON"
+		"code"		"X_BUTTON"
+		"code"		"RIGHT"
+		"code"		"RIGHT"
+		"code"		"B_BUTTON"
+		"code"		"B_BUTTON"
+
+		"command"	";" // "warp_all_survivors_here"
+	}
+
+	"NoClip"
+	{
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"UP"
+		"code"		"L_SHOULDER"
+		"code"		"DOWN"
+		"code"		"DOWN"
+		"code"		"DOWN"
+		"code"		"L_SHOULDER"
+
+		"command"	";" // "noclip"
+	}
+
+
+
+	"GiveBat"
+	{
+		"code"		"UP"
+		"code"		"DOWN"
+		"code"		"L_SHOULDER"
+		"code"		"B_BUTTON"
+		"code"		"UP"
+		"code"		"DOWN"
+		"code"		"L_SHOULDER"
+		"code"		"B_BUTTON"
+
+		"command"	";" // "give baseball_bat"
+	}
+	
+}

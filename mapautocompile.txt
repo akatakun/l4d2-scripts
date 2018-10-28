@@ -1,0 +1,34 @@
+map: default
+	vbsp:	
+	vvis:	-mpi
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c4m1_milltown_a
+	vbsp:	
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c4m2_sugarmill_a
+	vbsp:	
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c4m3_sugarmill_b
+	vbsp:	
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c4m4_milltown_b 
+	vbsp:	
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c2m1_highway
+	vbsp:	-localphysx
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final
+
+map: c2m2_fairgrounds
+	vbsp:	-localphysx
+	vvis:	-mpi -fast
+	vrad:	-mpi -textureshadows -hdr -StaticPropLighting -StaticPropPolys -final

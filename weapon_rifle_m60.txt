@@ -1,0 +1,151 @@
+WeaponData
+{
+	// Terror-specific Data --------------------
+	"VerticalPunch"				"2.4"
+	"SpreadPerShot"				"1.0" 
+	"MaxSpread"					"6"
+	"SpreadDecay"				"7"		
+	"MinDuckingSpread"			"0.1"	
+	"MinStandingSpread"			"0.7" 	
+	"MinInAirSpread"			"3.5"
+	"MaxMovementSpread"			"2.1"
+	"AddonAttachment"			"primary"
+	"Team" 						"Survivor"
+	
+	"Tier"						"0"
+	
+	"ResponseRulesName"			"M60"
+
+	"MuzzleFlashEffect_1stPerson"	"weapon_muzzle_flash_assaultrifle_FP"
+	"MuzzleFlashEffect_3rdPerson"	"weapon_muzzle_flash_assaultrifle"
+
+	"EjectBrassEffect"			"weapon_shell_casing_rifle"
+	
+	"MusicDynamicSpeed"			"0.35"
+	
+	"DisplayName"				"#L4D_Weapon_M60"
+	"DisplayNameAllCaps"		"#L4D_Weapon_M60"
+	
+	"NewInL4D2"					"1"
+
+	// 360 Terror Data
+	"MaxAutoAimDeflection1"		"10.0"
+	"MaxAutoAimRange1"			"0"
+	"WeaponAutoAimScale"		"1.0"
+	// End Terror-specific Data ----------------
+
+	"Rumble"					"4"
+
+	"MaxPlayerSpeed" 			"190" 
+	"WeaponType" 				"rifle"
+	"WeaponPrice" 				"3100"
+	"WeaponArmorRatio" 			"1.4"
+	"CrosshairMinDistance" 		"4"
+	"CrosshairDeltaDistance" 	"3"
+	"BuiltRightHanded" 			"1"
+	"PlayerAnimationExtension" 	"m4"
+
+	"CanEquipWithShield"		"0"
+	
+	
+	// Weapon characteristics:
+	"PenetrationNumLayers"		"10"
+	"PenetrationPower"			"250"
+	"PenetrationMaxDistance"	"0"
+
+	"Damage"					"120"
+	"Range"						"3000"
+	"RangeModifier"				"0.97"
+	"GainRange"					"1500"
+	"Bullets"					"1"
+	"CycleTime"					"0.096"
+
+	"TimeToIdle"				"1.5"
+	"IdleInterval"				"60"
+	
+	"printname"					"M60"
+
+	"playermodel"				"models/w_models/weapons/w_m60.mdl"
+	
+	"viewmodel"					"models/v_models/v_m60.mdl"
+	"CharacterViewmodelAddon"
+	{
+	"Coach"						"models/weapons/arms/v_arms_coach_new.mdl"
+	"Mechanic"					"models/weapons/arms/v_arms_mechanic_new.mdl"
+	"Producer"					"models/weapons/arms/v_arms_producer_new.mdl"
+	"Gambler"					"models/weapons/arms/v_arms_gambler_new.mdl"
+    "Namvet"         			"models/weapons/arms/v_arms_bill.mdl"
+    "Biker"           			"models/weapons/arms/v_arms_francis.mdl"
+    "Manager"         			"models/weapons/arms/v_arms_louis.mdl"
+    "TeenGirl"        			"models/weapons/arms/v_arms_zoey.mdl"
+	}
+
+	"anim_prefix"				"anim"
+	"bucket"					"0"
+	"bucket_position"			"0"
+
+	"clip_size"					"254"
+	
+	"primary_ammo"				"AMMO_TYPE_M60"
+	"secondary_ammo"			"None"
+
+	"weight"					"25"
+	"item_flags"				"0"
+
+	"LoadoutSlots"				"2"
+
+	SoundData
+	{
+	"single_shot"				"M60.Fire"
+	"shoot_incendiary"			"M60.FireIncendiary"
+	}
+
+	TextureData
+	{
+		"weapon"
+		{
+				"file"		"vgui/hud/iconsheet_dlc1"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"64"	
+		}
+		"ammo"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"384"
+				"y"			"448"
+				"width"		"64"
+				"height"	"64"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -2 -13"
+			Maxs	"30 10 0"
+		}
+		World
+		{
+			Mins	"-8 -9 -6"
+			Maxs	"29 9 8"
+		}
+	}
+}		//written by Xx GaT NaZzTi !! xX. Do not redistribute.
